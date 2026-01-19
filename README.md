@@ -22,40 +22,43 @@ By identifying the key drivers behind pricing, demand, and reviews, this analysi
 - Listings and reviews data for:
   - New York City
   - London
-
-### Dataset Size
-- NYC listings: 36,289  
-- NYC reviews: 986,598  
-- London listings: 96,995  
-- London reviews: 2,019,218  
-
----
-
-## Key Questions
-- Which factors influence Airbnb pricing the most?
-- How do price and demand differ across cities and neighborhoods?
-- How do holidays and seasonal trends affect pricing and demand?
-- What drives positive or negative guest reviews?
+- Dataset Size: 
+  - NYC listings: 36,289  
+  - NYC reviews: 986,598  
+  - London listings: 96,995  
+  - London reviews: 2,019,218  
 
 ---
 
 ## Methodology
-- Data cleaning and preprocessing using SQL  
+- Data cleaning and preprocessing using *SQL*  
 - LEFT JOIN listings and reviews on `listing_id`  
 - Aggregation and exploratory analysis  
-- Visualization using interactive dashboards  
+- Visualization using interactive dashboards
+
+### Key Questions
+  - Which factors influence Airbnb pricing the most?
+  - How do price and demand differ across cities and neighborhoods?
+  - How do holidays and seasonal trends affect pricing and demand?
+  - What drives positive or negative guest reviews?
 
 ---
 
-## Key Insights
-- NYC listings are significantly more expensive, with larger price variability  
-- London has a larger supply, leading to more competitive pricing  
-- Location is the strongest driver of price in both cities  
-- Seasonal effects increase demand but do not drastically widen price gaps  
-- Certain neighborhoods present opportunity zones for hosts  
+## Entity Relationship Diagram
+<img width="1780" height="602" alt="image" src="https://github.com/user-attachments/assets/0a7bbd45-5a53-48a0-ad0c-bfc4d4ab4bfd" />
 
 ---
 
+## Tableau Dashboard
+Dashboard Link1: (NYC dashboard) https://public.tableau.com/views/GroupProject_17651422052690/NYC?:language=zh-TW&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+Dashboard Link2: (London dashboard) https://public.tableau.com/views/GroupProject-London/London?:language=zh-TW&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+<img width="2222" height="1630" alt="image" src="https://github.com/user-attachments/assets/8eb516d7-4657-49cb-8484-ebd7311f5d63" />
+
+<img width="2154" height="1712" alt="image" src="https://github.com/user-attachments/assets/b1a0cf50-78ea-46cf-97d9-7015e022f614" />
+
+---
 ## Outcome
 This analysis highlights actionable patterns that can support better decision-making for both Airbnb hosts and travelers.
 
