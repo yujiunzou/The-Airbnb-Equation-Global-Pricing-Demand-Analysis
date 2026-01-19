@@ -63,4 +63,5 @@ Dashboard Link2: (London dashboard) https://public.tableau.com/views/GroupProjec
 This analysis highlights actionable patterns that can support better decision-making for both Airbnb hosts and travelers.
 
 
-### Contributors: Juncheng (Leo) Zhu, Kang Ni, Yu-Ting (Tiffany) Chen, Yujiun (Janice) Zou
+### Contributors: 
+Juncheng (Leo) Zhu, Kang Ni, Yu-Ting (Tiffany) Chen, Yujiun (Janice) Zou
